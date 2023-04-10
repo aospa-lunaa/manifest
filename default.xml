@@ -48,6 +48,11 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- aospa-lunaa -->
+  <remote  name="forks"
+           fetch="https://github.com/aospa-lunaa"
+           revision="topaz" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
