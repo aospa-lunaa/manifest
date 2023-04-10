@@ -78,6 +78,14 @@
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="android_external_mksh" remote="forks" />
 
+  <!-- External (fonts) -->
+  <remove-project name="platform/external/roboto-fonts" />
+  <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="forks" />
+  <remove-project name="platform/external/noto-fonts" remote="forks" />
+  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="forks"/>
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <project path="external/google-fonts/cutive-mono" name="android_external_google-fonts_cutive-mono" remote="forks" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
